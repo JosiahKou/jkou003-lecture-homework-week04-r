@@ -222,9 +222,9 @@ The files `src/start.s` and `src/sum.c` should contain your modified code. Fill 
 
 | Variable name | Value |
 | :-----------: | :---: |
-| `a`           |       |
-| `b`           |       |
-| `c`           |       |
+| `a`           |   1   |
+| `b`           |   2   |
+| `c`           |   3   |
 
 1.  Commit and push your changes to your GitHub repository.
 2.  Submit the assignment via **Gradescope**.
