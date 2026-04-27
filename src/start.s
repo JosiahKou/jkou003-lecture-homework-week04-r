@@ -1,6 +1,7 @@
 // Originally ts.s from Program 2.4
         .text
         .global start, sum
+        .extern a, b, c
 
 start:
         ldr sp, =stack_top // need a stack to make calls
@@ -12,6 +13,3 @@ start:
         ldr r2, =c
         str r0, [r2]       // store return value in c
 stop:   b stop
-
-        // Remove the .data section and variable definitions
-        // They are now in sum.c
